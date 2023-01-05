@@ -1,0 +1,11 @@
+to run the applications
+
+uvicorn main:app --reload
+
+# this would run the application in localhost port 8000
+# u can change the port number or disable others to run this.
+
+(venv) (base) mshema@Hema fastapi_versioning % uvicorn main:app --reload
+INFO:     Will watch for changes in these directories: ['/Users/mshema/Desktop/HemaDev/python/pythonProject/pythonProject1/pythonProject/pythonProject/AuthJWt/pythonProject/pythonProject/fastapi_versioning']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [18984] using StatReload
