@@ -4,8 +4,8 @@ from starlette.middleware import Middleware
 from starlette.middleware.sessions import SessionMiddleware
 
 app = FastAPI(
-    title='My App',
-    description='Greet uses with a nice message',
+    title='Hema versioning apps',
+    description='This api is to control backend versioning with fastappi',
     middleware=[
         Middleware(SessionMiddleware, secret_key='mysecretkey')
     ]
